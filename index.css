@@ -7,7 +7,7 @@
 .tips{width: 29px;height: 19px;border:1px solid black;font-size: 12px;display: none;position: absolute;top: 25px;}
 #qiege{display: inline-block;padding: 15px 10px;border:1px solid black;font-size: 12px;}
 
-
+body{background-image:url(./images/1.jpg);background-size: cover;}
 body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,lengend,button,input,textarea,th,td{margin:0;padding:0}
 body,button,input,select,textarea,th{color:#8B8B8B;background-color:#FFF;font-size:12px;line-height:1.5em;font-family:Arial,Tahoma,"hiragino sans gb",Helvetica}
 h1,h2,h3,h4,h5,h6{font-size:100%}
@@ -265,6 +265,8 @@ a:hover{color:#333}
 .dialog_type_2 .qr_code h4{text-align:center;font-family:"\5b8b\4f53";color:#000;font-weight:500;position:relative;top:-30px;margin:0 0 -18px}
 .dialog_type_2 .qr_code .qr_img{display:block;width:140px;height:140px;overflow:hidden;margin:0 auto}
 .dialog_type_2 .qr_code .qr_img img{display:block;width:140px;height:140px}
+#divlistmain{overflow: auto;}
+
 @media screen and (-webkit-min-device-pixel-ratio:1.5){.logined .btn_open_vip,.navigation li a,.frame_search,.search_focus,.visitor_cp button{background-image:url(http://imgcache.gtimg.cn/mediastyle/musicprotal/img/frame_bg@2x.png);background-size:1000px 200px;background-color:#fff}
 .follow_on .icon_qrcode{background-image:url(http://imgcache.gtimg.cn/mediastyle/musicprotal/img/frame_bg@2x.png)}
 .navigation li a{position:relative;overflow:hidden}

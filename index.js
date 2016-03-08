@@ -11,7 +11,7 @@ document.addEventListener("readystatechange",function()
 		var jindu=document.querySelector("#jindu");
 		var jinduposition=document.querySelector("#jindu-position");
 		var tips=document.querySelector(".tips");
-		var yinyueku=[{name:"非你莫属",src:"./1.mp3",geshou:"林依晨",duration:"4:43"},{name:"可惜没如果",src:"./2.mp3",geshou:"林俊杰",duration:"4:58"},{name:"远走高飞",src:"./3.mp3",geshou:"林忆莲",duration:"3:42"},{name:"非你莫属",src:"./1.mp3",geshou:"林依晨",duration:"4:43"},{name:"可惜没如果",src:"./2.mp3",geshou:"林俊杰",duration:"4:58"},{name:"远走高飞",src:"./3.mp3",geshou:"林忆莲",duration:"3:42"}];
+		var yinyueku=[{name:"非你莫属",src:"./music/1.mp3",geshou:"林依晨",duration:"4:43"},{name:"可惜没如果",src:"./music/2.mp3",geshou:"林俊杰",duration:"4:58"},{name:"远走高飞",src:"./music/3.mp3",geshou:"林忆莲",duration:"3:42"},{name:"Rain Man",src:"./music/Akihide - Rain Man.mp3",geshou:"Akihide",duration:"5:45"},{name:"All I Want",src:"./music/Kodaline - All I Want.mp3",geshou:"Kodaline",duration:"5:06"},{name:"样(Young)",src:"./music/Tfboys - 样(Young).mp3",geshou:"Tfboys",duration:"4:24"},{name:"苍浪剑赋",src:"./music/苍浪剑赋.mp3",geshou:"仙剑奇侠传",duration:"1:21"},{name:"蝶恋",src:"./music/蝶恋.mp3",geshou:"仙剑奇侠传",duration:"1:51"},{name:"We Are! - ウィ ア",src:"./music/东方神起 - We Are! - ウィ ア.mp3",geshou:"东方神起",duration:"3:37"},{name:"凤鸣曲-命起涟漪",src:"./music/凤鸣曲-命起涟漪.mp3",geshou:"仙剑奇侠传",duration:"1:27"},{name:"浮生狱",src:"./music/浮生狱.mp3",geshou:"仙剑奇侠传",duration:"2:51"},{name:"回梦游仙",src:"./music/回梦游仙.mp3",geshou:"仙剑奇侠传",duration:"2:06"},{name:"龙影随风",src:"./music/龙影随风.mp3",geshou:"仙剑奇侠传",duration:"2:42"},{name:"泣心谱",src:"./music/泣心谱.mp3",geshou:"仙剑奇侠传",duration:"2:50"},{name:"群山飞鹤",src:"./music/群山飞鹤.mp3",geshou:"仙剑奇侠传",duration:"2:36"},{name:"水龙吟-余情幽梦",src:"./music/水龙吟-余情幽梦.mp3",geshou:"仙剑奇侠传",duration:"2:28"},{name:"云谷鹤峰",src:"./music/云谷鹤峰.mp3",geshou:"仙剑奇侠传",duration:"2:22"},{name:"织梦行云",src:"./music/织梦行云.mp3",geshou:"仙剑奇侠传",duration:"2:21"}];
 		var currentsongindex;
 		var LIEBIAO=3;
 		var SHUNXU=2;
@@ -148,7 +148,7 @@ document.addEventListener("readystatechange",function()
 		//var qiege=document.querySelector("#qiege");//切歌按钮
 		// qiege.onclick=function()
 		// {
-		// 	audio.src="./2.mp3";
+		// 	audio.src="./music/2.mp3";
 		// 	audio.play();
 		// }
 		
