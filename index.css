@@ -79,22 +79,22 @@ a:hover{color:#333}
 .no_icon .warning_info{padding-left:0}
 .no_icon .suggest{padding:0}
 .small_icon{height:27px}
-.small_icon .icon_warning{display:block;width:27px;height:27px;position:absolute;left:0;top:0;overflow:hidden;background:url(http://imgcache.gtimg.cn/mediastyle/musicprotal/img/icon_sprite.png) no-repeat 0 -467px}
+.small_icon .icon_warning{display:block;width:27px;height:27px;position:absolute;left:0;top:0;overflow:hidden;}
 .small_icon .warning_info{font-size:12px;line-height:27px;padding:0 0 0 40px}
 .mod_tips{position:absolute;padding:4px}
 .mod_tips p{padding:4px 22px 4px 7px;background:#fffae3;border:solid 1px #eacaa5}
 .mod_tips p a{color:#0c8f44}
 .mod_tips p a:hover{color:#05B600}
-.mod_tips .close_tips{display:block;width:10px;height:10px;position:absolute;right:12px;top:12px;text-indent:-9999em;overflow:hidden;background:url(http://imgcache.gtimg.cn/mediastyle/musicprotal/img/icon_sprite.png) no-repeat -98px -109px}
+.mod_tips .close_tips{display:block;width:10px;height:10px;position:absolute;right:12px;top:12px;text-indent:-9999em;overflow:hidden;}
 .mod_tips i{display:block;width:9px;height:5px;position:absolute;font-size:0}
-.mod_tips .icon_arrow_foot{left:17px;bottom:0;background:url(http://imgcache.gtimg.cn/mediastyle/musicprotal/img/icon_sprite.png) no-repeat -174px -128px}
-.mod_tips .icon_arrow_top{left:17px;top:0;background:url(http://imgcache.gtimg.cn/mediastyle/musicprotal/img/icon_sprite.png) no-repeat -174px -124px}
-.mod_tips .icon_arrow_left{width:5px;height:9px;left:0;top:13px;background:url(http://imgcache.gtimg.cn/mediastyle/musicprotal/img/icon_sprite.png) no-repeat -174px -124px}
-.mod_tips .icon_arrow_right{width:5px;height:9px;right:0;top:13px;background:url(http://imgcache.gtimg.cn/mediastyle/musicprotal/img/icon_sprite.png) no-repeat -178px -124px}
+.mod_tips .icon_arrow_foot{left:17px;bottom:0;}
+.mod_tips .icon_arrow_top{left:17px;top:0;}
+.mod_tips .icon_arrow_left{width:5px;height:9px;left:0;top:13px;}
+.mod_tips .icon_arrow_right{width:5px;height:9px;right:0;top:13px;}
 .page_loading{padding:50px 0}
-.page_loading .icon_loading{display:block;width:32px;height:32px;background:url(http://imgcache.gtimg.cn/mediastyle/music_v12/img/loading.gif) no-repeat;margin:0 auto}
+.page_loading .icon_loading{display:block;width:32px;height:32px;margin:0 auto}
 .page_loading p{text-align:center;font-size:14px;color:#949494}
-@media screen and (-webkit-min-device-pixel-ratio:1.5){.icon_try{background-image:url(http://imgcache.gtimg.cn/mediastyle/musicprotal/img/icon_sprite@2x.png);background-size:199px 600px}}
+@media screen and (-webkit-min-device-pixel-ratio:1.5){.icon_try{background-size:199px 600px}}
 .frame_top{height:143px;border-bottom:1px solid #DDD;min-width:960px}
 .header_top{width:100%;height:30px;background:#2f2f2f}
 .navlist ul{position:absolute;right:0}
@@ -127,7 +127,7 @@ a:hover{color:#333}
 .hide{position:absolute;left:-9999px}
 .main_top{width:960px;height:112px;margin:0 auto;position:relative}
 .main_top h1{width:150px;height:58px;margin-top:28px;float:left}
-.main_top .frame_logo{width:295px;height:113px;background:#fff url(http://imgcache.gtimg.cn/mediastyle/musicprotal/img/frame_logo.png) no-repeat;position:absolute;top:0;left:-114px;margin:0}
+.main_top .frame_logo{width:295px;height:113px;position:absolute;top:0;left:-114px;margin:0}
 .main_top .frame_logo .logo{text-indent:-9999em;overflow:hidden;display:block;width:150px;height:50px;position:absolute;left:145px;top:34px}
 .main_top .frame_logo .event_logo,.main_top .frame_logo .event_logo img{position:relative;z-index:2;display:block;width:295px;height:113px}
 .main_top .frame_logo .img_logo{display:block;filter:alpha(opacity=0);opacity:0}
@@ -143,7 +143,7 @@ a:hover{color:#333}
 .navigation li.nav_software{width:108px}
 .navigation li.nav_musicvip{width:58px}
 .navigation li.nav_qplay{width:71px}
-.navigation li a{background-image:url(http://imgcache.gtimg.cn/mediastyle/musicprotal/img/frame_bg.png);display:block;height:75px;outline:none}
+.navigation li a{display:block;height:75px;outline:none}
 .navigation .nav_home a{background-position:0 -79px}
 .navigation .nav_mv a{background-position:-101px -79px}
 .navigation .nav_mymusic a{background-position:-166px -79px}
@@ -168,8 +168,8 @@ a:hover{color:#333}
 .sub_navigation p a:hover{color:#444;text-decoration:none}
 .sub_navigation p a.nonce{color:#0dad51;font-weight:bold}
 .sub_navigation p a.nonce:hover{color:#05B600}
-.frame_search{background-image:url(http://imgcache.gtimg.cn/mediastyle/musicprotal/img/frame_bg.png);background-position:0 -161px;background-repeat:no-repeat;width:228px;height:39px;position:absolute;top:38px;right:-4px;z-index:2}
-.search_focus{background-image:url(http://imgcache.gtimg.cn/mediastyle/musicprotal/img/frame_bg.png);background-position:-233px -161px;background-repeat:no-repeat}
+.frame_search{background-position:0 -161px;background-repeat:no-repeat;width:228px;height:39px;position:absolute;top:38px;right:-4px;z-index:2}
+.search_focus{background-position:-233px -161px;background-repeat:no-repeat}
 .frame_search .search_text{color:#C3C3C3;line-height:20px;width:180px;height:20px;margin:10px 0 10px 15px;border:0}
 .frame_search input:focus{outline:none}
 .search_focus .search_text{color:#515151}
@@ -199,7 +199,7 @@ a:hover{color:#333}
 .main_frame iframe{min-width:960px}
 .foot{text-align:center;line-height:24px;margin:30px auto 10px;padding-top:10px;min-width:960px;background:#f7f7f7;overflow:hidden;clear:both;zoom:1}
 .follow_on{position:relative;overflow:hidden;width:920px;margin:0 auto;padding:20px 0 50px 60px;font-family:tahoma;zoom:1;clear:both;zoom:1}
-.btn_qq_weibo{display:inline-block;width:62px;height:22px;line-height:22px;overflow:hidden;background:url(http://imgcache.gtimg.cn/mediastyle/musicprotal/img/sns_fllow.png) no-repeat 0 0;text-indent:20px;color:#1f83be;*zoom:1;*line-height:23px;vertical-align:middle;position:relative;top:-1px;margin-left:15px;*left:15px;*top:0}
+.btn_qq_weibo{display:inline-block;width:62px;height:22px;line-height:22px;overflow:hidden;text-indent:20px;color:#1f83be;*zoom:1;*line-height:23px;vertical-align:middle;position:relative;top:-1px;margin-left:15px;*left:15px;*top:0}
 .btn_sina_weibo{display:inline-block;width:62px;height:22px;line-height:22px;overflow:hidden;*zoom:1;*line-height:23px;margin-top:4px;vertical-align:middle;position:relative;top:-1px;margin-left:15px;*left:15px;*top:0}
 .followed{color:#8b8b8b}
 .follow_on dl{float:left;text-align:left;margin-right:90px;zoom:1}
@@ -211,14 +211,14 @@ a:hover{color:#333}
 .follow_on .soft_download a{margin-right:20px}
 .follow_on .friends_link{margin-right:0;width:340px}
 .follow_on .friends_link a{margin-right:20px}
-.follow_on .icon_qrcode{display:inline-block;width:14px;height:14px;background:url(http://imgcache.gtimg.cn/mediastyle/musicprotal/img/frame_bg.png) -986px -95px no-repeat;vertical-align:middle;position:relative;top:-2px;left:3px;top:0\9;_top:2px}
+.follow_on .icon_qrcode{display:inline-block;width:14px;height:14px;vertical-align:middle;position:relative;top:-2px;left:3px;top:0\9;_top:2px}
 :root .follow_on .icon_qrcode{top:-2px}
 .popup_weixin_qrcode{position:fixed;padding:10px;border:1px solid #ddd;background:#fff;top:50%;left:50%;margin:-111px 0 0 -111px;_position:absolute}
 .popup_weixin_qrcode img{display:block}
-.popup_download_qrcode{position:fixed;_position:absolute;right:20px;bottom:45%;z-index:3;width:158px;height:246px;border:solid #DDD 1px;background:#FFF url(http://imgcache.gtimg.cn/mediastyle/musicprotal/img/bg_popup_download_qrcode.jpg) no-repeat}
+.popup_download_qrcode{position:fixed;_position:absolute;right:20px;bottom:45%;z-index:3;width:158px;height:246px;border:solid #DDD 1px;}
 .popup_focus_qqmusic_qrcode{position:fixed;_position:absolute;left:50%;top:20px;margin-left:520px;width:112px;border:1px solid #dbdbdb;font-size:12px;background-color:#fff;padding:5px 0 10px}
-.popup_download_qrcode .popup_dialog_close,.popup_focus_qqmusic_qrcode .popup_dialog_close,.popup_weixin_qrcode .popup_dialog_close{position:absolute;top:0;right:0;z-index:3;width:20px;height:20px;text-indent:-999em;overflow:hidden;background:url(http://imgcache.gtimg.cn/mediastyle/musicprotal/img/icon_sprite.png) no-repeat -70px -70px}
-.popup_download_qrcode .popup_dialog_close:hover,.popup_weixin_qrcode .popup_dialog_close:hover{background:url(http://imgcache.gtimg.cn/mediastyle/musicprotal/img/icon_sprite.png) -90px -70px}
+.popup_download_qrcode .popup_dialog_close,.popup_focus_qqmusic_qrcode .popup_dialog_close,.popup_weixin_qrcode .popup_dialog_close{position:absolute;top:0;right:0;z-index:3;width:20px;height:20px;text-indent:-999em;overflow:hidden;}
+.popup_download_qrcode .popup_dialog_close:hover,.popup_weixin_qrcode .popup_dialog_close:hover{}
 .popup_download_qrcode img{display:block;margin:92px auto 0}
 .popup_download_qrcode p,.popup_focus_qqmusic_qrcode p{text-align:center;color:#515151}
 .popup_focus_qqmusic_qrcode img{display:block;margin:15px auto 12px}
@@ -228,13 +228,13 @@ a:hover{color:#333}
 .download_box p{padding:0 10px;text-align:left}
 .download_box a{position:relative;display:block;padding-left:25px;color:#757575;height:30px;line-height:30px}
 .download_box a:hover{color:#35a264}
-.icon_d_pc,.icon_d_mac,.icon_d_iphone,.icon_d_android{position:absolute;left:0;top:4px;width:20px;height:20px;background:url(http://imgcache.gtimg.cn/mediastyle/musicprotal/img/icon_sprite.png) no-repeat 0 0}
+.icon_d_pc,.icon_d_mac,.icon_d_iphone,.icon_d_android{position:absolute;left:0;top:4px;width:20px;height:20px;}
 .icon_d_pc{background-position:0 -500px}
 .icon_d_mac{background-position:-20px -500px;top:5px}
 .icon_d_iphone{background-position:-40px -500px}
 .icon_d_android{background-position:-60px -500px}
 .visitor_cp{background-color:#FFF;width:47px;height:106px;position:fixed;_position:absolute;right:20px;bottom:30%;border-radius:5px;box-shadow:0 0 2px #6E6E6E}
-.visitor_cp button{background:url(http://imgcache.gtimg.cn/mediastyle/musicprotal/img/frame_bg.png) no-repeat;display:block;text-indent:999em;line-height:9999px;width:37px;margin:5px;border:0;overflow:hidden;float:left}
+.visitor_cp button{display:block;text-indent:999em;line-height:9999px;width:37px;margin:5px;border:0;overflow:hidden;float:left}
 .visitor_cp .get_top{background-position:-896px -91px;height:22px}
 .visitor_cp .get_feedback{background-position:-896px -113px;height:32px}
 .visitor_cp .get_bottom{background-position:-896px -147px;height:22px}
@@ -249,8 +249,8 @@ a:hover{color:#333}
 .iphone_banner .close_banner i::after{-webkit-transform:rotate(-45deg)}
 .popup_dialog h3{line-height:106px;font-size:18px;text-align:center;color:#000;font-weight:normal}
 .dialog_type_2{padding:0 0 42px}
-.dialog_type_2 .btn_normal,.dialog_type_2 .btn_ios_store,.dialog_type_2 .btn_markplace{background-image:url(http://imgcache.gtimg.cn/mediastyle/musicprotal/img/download/2013_all/bg_btns.png);background-repeat:no-repeat;margin:0 auto 20px;position:relative;font-family:Arial,Tahoma,\5FAE\8F6F\96C5\9ED1,\5b8b\4f53;*font-family:\5FAE\8F6F\96C5\9ED1,\5b8b\4f53;text-overflow:ellipsis;overflow:hidden;white-space:nowrap}
-.dialog_type_2 .icon_download{display:block;width:28px;height:25px;background:url(http://imgcache.gtimg.cn/mediastyle/musicprotal/img/download/2013_all/bg_btns.png) no-repeat -217px -82px;position:absolute}
+.dialog_type_2 .btn_normal,.dialog_type_2 .btn_ios_store,.dialog_type_2 .btn_markplace{background-repeat:no-repeat;margin:0 auto 20px;position:relative;font-family:Arial,Tahoma,\5FAE\8F6F\96C5\9ED1,\5b8b\4f53;*font-family:\5FAE\8F6F\96C5\9ED1,\5b8b\4f53;text-overflow:ellipsis;overflow:hidden;white-space:nowrap}
+.dialog_type_2 .icon_download{display:block;width:28px;height:25px;position:absolute}
 .dialog_type_2 .btn_normal{display:block;width:210px;height:60px;background-position:0 -144px}
 .dialog_type_2 .btn_normal .icon_download{left:50px;top:17px}
 .dialog_type_2 .btn_normal span{font-size:18px;color:#fff;display:block;text-indent:90px}
@@ -267,12 +267,12 @@ a:hover{color:#333}
 .dialog_type_2 .qr_code .qr_img img{display:block;width:140px;height:140px}
 #divlistmain{overflow: auto;}
 
-@media screen and (-webkit-min-device-pixel-ratio:1.5){.logined .btn_open_vip,.navigation li a,.frame_search,.search_focus,.visitor_cp button{background-image:url(http://imgcache.gtimg.cn/mediastyle/musicprotal/img/frame_bg@2x.png);background-size:1000px 200px;background-color:#fff}
-.follow_on .icon_qrcode{background-image:url(http://imgcache.gtimg.cn/mediastyle/musicprotal/img/frame_bg@2x.png)}
+@media screen and (-webkit-min-device-pixel-ratio:1.5){.logined .btn_open_vip,.navigation li a,.frame_search,.search_focus,.visitor_cp button{background-size:1000px 200px;background-color:#fff}
+.follow_on .icon_qrcode{}
 .navigation li a{position:relative;overflow:hidden}
 .navigation li span{position:absolute;left:-1px;right:-1px}
-.popup_download_qrcode .popup_dialog_close,.popup_download_qrcode .popup_dialog_close:hover,.icon_d_pc,.icon_d_mac,.icon_d_iphone,.icon_d_android{background-image:url(http://imgcache.gtimg.cn/mediastyle/musicprotal/img/icon_sprite@2x.png);background-size:199px 600px}
-.main_top .frame_logo{background-image:url(http://imgcache.gtimg.cn/mediastyle/musicprotal/img/frame_logo@2x.png);background-size:295px 113px}}
+.popup_download_qrcode .popup_dialog_close,.popup_download_qrcode .popup_dialog_close:hover,.icon_d_pc,.icon_d_mac,.icon_d_iphone,.icon_d_android{background-size:199px 600px}
+.main_top .frame_logo{background-size:295px 113px}}
 .m_player{width:563px;height:115px;position:fixed;_position:absolute;bottom:10px;left:-541px;box-shadow:3px 3px 6px RGBA(0,0,0,.42);border-radius:4px;z-index:10;left:0}
 .m_player .folded_bt{background:url(./images/player_bg.png) no-repeat 0 0;display:block;width:22px;height:115px;border:0;position:absolute;top:0;right:0}
 .m_player_folded .folded_bt{background:url(./images/player_bg.png) no-repeat -23px 0}
@@ -308,7 +308,7 @@ to{opacity:.5}}
 .m_player .music_info .music_op .kge_QRcode_arrow{position:absolute;bottom:-20px;left:82px;font-size:0;line-height:0;width:0;height:0;border-width:10px;border-color:#383838 transparent transparent transparent;border-style:solid dashed dashed dashed}
 .m_player .music_info .music_op .btn_kge_hover .kge_QRcode{display:block}
 .m_player .music_info .music_op .btn_kge:hover .kge_QRcode{display:block}
-.m_player .music_info .music_op .kge_QRcode_logo{position:absolute;left:73px;top:73px;display:block;width:40px;height:40px;background:url(http://imgcache.gtimg.cn/mediastyle/musicprotal/img/kge_qrcode.png) no-repeat}
+.m_player .music_info .music_op .kge_QRcode_logo{position:absolute;left:73px;top:73px;display:block;width:40px;height:40px;}
 .m_player .music_info .music_op .btn_like_n{background-position:0 -163px}
 .m_player .music_info .music_op .btn_share_n{background-position:-16px -163px}
 .m_player .music_info .music_op .btn_fav_n{background-position:-64px -163px}
@@ -361,7 +361,7 @@ to{opacity:.5}}
 .m_player .player_bg_bar{width:100%;background:#323232;font-size:0;height:4px;position:absolute;bottom:0;left:0;z-index:1;cursor:pointer}
 .m_player .download_bar{background:#2c4838;font-size:0;height:4px;position:absolute;bottom:0;left:0;z-index:2;cursor:pointer}
 .m_player .play_current_bar{position:absolute;background:#0cc65b;font-size:0;display:block;height:4px;z-index:3;cursor:pointer}
-.m_player .player_bar .progress_op{display:block;width:7px;height:6px;background:url(http://imgcache.gtimg.cn/mediastyle/musicprotal/img/progress_op.png) no-repeat;position:absolute;z-index:3;top:-1px;cursor:pointer;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=scale,src="http://imgcache.qq.com/mediastyle/musicprotal/img/progress_op.png");_background:none;cursor:pointer}
+.m_player .player_bar .progress_op{display:block;width:7px;height:6px;position:absolute;z-index:3;top:-1px;cursor:pointer;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=scale,src="http://imgcache.qq.com/mediastyle/musicprotal/img/progress_op.png");_background:none;cursor:pointer}
 .time_show{width:50px;height:24px;position:absolute;z-index:3}
 .time_show p{height:17px;line-height:17px;color:#fff;border:solid 1px #666;background:#2f2f2f;-webkit-text-size-adjust:none;font-size:10px;text-align:center;font-family:Arial,Helvetica}
 .time_show .icon_arrow_foot{display:block;width:13px;height:7px;position:relative;top:-1px;overflow:hidden;left:17px}
